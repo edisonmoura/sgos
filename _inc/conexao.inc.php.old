@@ -1,0 +1,15 @@
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.min.css">
+<script src="../bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+<?php
+// Configura para que o PHP sempre mostre erros
+ini_set('display_errors','1');
+// Configura o nível de erro a ser mostrado - todos
+error_reporting(E_ALL);
+// Conecta no postgres
+$conexao = pg_connect("host=localhost user=postgres password=postgres dbname=uniao_os");
+// Testa a conexao
+if(!$conexao)
+{
+  die("Não foi possível conectar-se ao banco de dados");
+}

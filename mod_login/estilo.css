@@ -1,0 +1,25 @@
+body{
+	background-image: url("../images/background_login.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+form{
+	background-color: #ebebeb;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 305px 10px;
+	background-size: 125px;
+	border: 1px solid #363636;
+	border-radius: 10px;
+	padding: 2px;
+}
+#titulo{
+	text-align: center;
+	
+}
+span{
+	color: #ebebeb;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 70px;
+}

@@ -1,7 +1,11 @@
+
+
 <?php
 require("_inc/config.inc.php");
 require("_inc/verifica_sessao.inc.php");
 require('_inc/conexao.inc.php');
+//Teste
+
 
 if(@$_GET['sair']){
   session_destroy();
